@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" type="text/css" href="festilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+<body>
+    <a href="index.html">
+        <i class="material-icons">home</i> Volver a la página de inicio
+      </a>
+
+     
+    <h1>Formulario de contacto</h1>
+
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <div class="social-media">
+          <a href="https://www.instagram.com/icyelegance" target="_blank" rel="noopener noreferrer" class="instagram">
+            <i class="material-icons">camera_alt</i>
+          </a>
+          <a href="https://www.facebook.com/icyelegance" target="_blank" rel="noopener noreferrer" class="facebook">
+            <i class="material-icons">facebook</i>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=86921001" target="_blank" rel="noopener noreferrer" class="whatsapp">
+            <i class="material-icons">WhatsApp</i>
+          </a>
+          <a href="mailto:Clentes@gmail.com" target="_blank" rel="noopener noreferrer" class="gmail">
+            <i class="material-icons">mail</i>
+          </a>
+        </div>
+        
+        <p class="rights">Todos los derechos reservados &copy; 2023 Icy Elegance</p>
+      </footer>
+
+</body>
+</html>
+
+    
+
+
+

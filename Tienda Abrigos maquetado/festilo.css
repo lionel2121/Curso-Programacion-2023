@@ -1,0 +1,101 @@
+body {
+    background-color: #192A56;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: black;
+    padding: 200px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: black;
+}
+
+button {
+    background-color: #FFA500;
+    color: white;
+    padding: 20px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD700;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 5px solid #ccc;
+    border-radius: 10px;
+}
+
+input[required],
+textarea[required] {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    margin-top: 15px;
+}
+
+a[href="index.html"] {
+    color: white;
+}
+
+a[href="index.html"] i {
+    color: yellow;
+    font-size: 30px;
+}
+
+footer {
+    background-color: red;
+    padding: 20px;
+    color: yellow;
+}
+
+.social-media a {
+    color: black;
+    margin-right: 10px;
+}
+
+.social-media a:hover {
+    color: orange;
+}
+
+.rights {
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    form {
+        width: 500px;
+    }
+
+    input,
+    textarea {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    form {
+        width: 800px;
+    }
+}
